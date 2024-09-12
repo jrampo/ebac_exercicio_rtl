@@ -32,7 +32,7 @@ const PostComments = () => {
         className={styles["post-comments-form"]}
       >
         <textarea
-          data-testid="comment-testarea"
+          data-testid="comment-textarea"
           value={tempComment}
           onChange={(e) => setTempComment(e.target.value)}
           required
